@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./form.css";
+import "./styleform.css";
 
 export default function Form() {
   const [dateOnScreen, setDateOnScreen] = useState({
