@@ -1,5 +1,5 @@
 import Form from "./components/Form";
-import "./AppStyle.CSS";
+import "./appStyle.CSS";
 export default function App() {
   return (
     <div className="container">
