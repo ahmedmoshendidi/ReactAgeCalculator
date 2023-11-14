@@ -1,0 +1,28 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End Reset */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+}
+
+.container {
+  border-radius: 24px 24px 200px 24px;
+  background: #fff;
+  padding: 56px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    border-radius: 24px 24px 100px 24px;
+    padding: 48px 24px;
+  }
+}
