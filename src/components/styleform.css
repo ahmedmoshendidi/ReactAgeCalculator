@@ -95,7 +95,7 @@ span {
   margin-right: 9px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   form {
     gap: 16px;
     margin-right: 0;
