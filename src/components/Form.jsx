@@ -202,7 +202,7 @@ export default function Form() {
           </label>
           <input
             className={error.errorDate ? "red-color-input" : " "}
-            type="text"
+            type="number"
             maxLength={2}
             id="day"
             name="day"
@@ -226,7 +226,7 @@ export default function Form() {
           </label>
           <input
             className={error.errorDate ? "red-color-input" : " "}
-            type="text"
+            type="number"
             maxLength={2}
             id="month"
             name="month"
@@ -249,7 +249,7 @@ export default function Form() {
           </label>
           <input
             className={error.errorDate ? "red-color-input" : " "}
-            type="text"
+            type="nubmer"
             maxLength={4}
             id="year"
             name="year"
